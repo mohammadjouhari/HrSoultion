@@ -2,7 +2,7 @@
 
 namespace Entity
 {
-    public class Employee : BaseEntity
+    public class Employee 
     {
         public string EmployeeId { get; set; }
         public string FirstName { get; set; }
@@ -24,6 +24,8 @@ namespace Entity
         public string SecondSecurityNO { get; set; }
         public string MaterialStatus { get; set; }
         public bool NoBrothersAllowed { get; set; }
+
+        public bool IsDeleted { get; set; }
     }
   
 }
